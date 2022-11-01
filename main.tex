@@ -1,0 +1,55 @@
+\documentclass{article}
+
+% Language setting
+% Replace `english' with e.g. `spanish' to change the document language
+\usepackage[english]{babel}
+
+% Set page size and margins
+% Replace `letterpaper' with`a4paper' for UK/EU standard size
+\usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{subfigure}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage[title]{appendix}
+\usepackage{caption}
+\captionsetup[figure]{labelfont={bf}, name={Fig.}, labelsep=period}
+
+\title{\textbf{\textsl{Dictyostelium}: Model System and Stress}}
+\author{Group 9}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\input{abstract}
+\end{abstract}
+
+\section*{INTRODUCTION}
+\input{intro}
+
+\section*{MATERIALS AND METHODS}
+\input{materials_methods}
+
+\section*{RESULTS}
+\input{results}
+
+\section*{DISCUSSION}
+\input{discussion}
+
+\section*{CONCLUSION}
+\input{conclusion}
+
+\bibliographystyle{unsrt}
+\bibliography{Bib}
+
+\clearpage
+\begin{appendices}
+\input{appendix}
+\end{appendices}
+
+\end{document}
